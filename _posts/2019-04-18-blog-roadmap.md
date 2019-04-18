@@ -17,3 +17,4 @@ categories: jekyll
 6. 세부 텍스트 styling
 7. 전체적인 디자인 수정
 8. about.md 수정
+9. post styling
