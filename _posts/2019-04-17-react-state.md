@@ -1,18 +1,9 @@
 ---
 layout: post
-title:  "React 1 - JSX"
+title:  "React 2 - state"
 date:   2019-04-17
 categories: react
 ---
-
-# React
-React.js는 JavaScript 라이브러리 입니다.
-라이브러리 개념을 아직 모르시는 분들은 [잘 설명된 포스팅](https://blog.gaerae.com/2016/11/what-is-library-and-framework-and-architecture-and-platform.html)을 참고하세요.
-
-왜 React를 배워야 하는지, 얼마나 많이 쓰는지, 왜 좋은지는 offline 수업 때 말씀드리기로 하고,
-오늘은 React를 입문하기 위해 알아야할 기초 내용을 설명드리겠습니다.
-
-React에서 사용되는 JSX 표현을 배워보겠습니다.
 
 ## JSX
 
@@ -92,6 +83,8 @@ const right = (
     </div>
 );
 ```
+
+[codepen](https://codepen.io/anon/pen/oOqjdp) 에서 간단히 확인할 수 있습니다.
 
 #### reference
 * codecademy
