@@ -64,7 +64,7 @@ footer부분을 수정하겠습니다. `.wecode-logo` 부분을 그대로 추가
 
 #### css 수정
 아래 내용을 `_sass/minima/_layout.scss` 맨 아래쪽에 추가해주세요.
-```css
+```scss
 // file: _sass/minima/_layout.scss
 
 .wecode-logo {
