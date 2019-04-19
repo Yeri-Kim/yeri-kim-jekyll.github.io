@@ -15,7 +15,7 @@ default theme인 minima의 code block 스타일이 어색해서 좀 바꿔보겠
 제가 사용하는 IDE는 Webstorm이고 테마는 Darcula을 사용하고 있습니다. 워낙 Webstorm 색깔에 익숙해져서 최대한 비슷하게 수정해보려고 합니다.
 일단 minima에서 code syntax highlighting에 해당하는 css를 가져와야 합니다.
 
-아래의 명령어로 minima의 위치를 가져오면 저는 `/Users/AllieKim/.rvm/gems/ruby-2.4.2/gems/minima-2.5.0`라고 나옵니다.
+아래의 명령어로 minima의 위치를 가져오면 저는 `/Users/AllieKim/.rvm/gems/ruby-2.4.2/gems/minima-2.5.0` 라고 나옵니다.
 ```
 bundle show minima
 ```
