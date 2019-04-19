@@ -13,7 +13,7 @@ categories: jekyll
 2. ~~[default theme에 css, html 수정해보기](https://yeri-kim.github.io/jekyll/2019/04/16/update-jekyll.html)~~ 완료
 3. 카테고리 메뉴 목록 보여주기
 4. 댓글창 달기
-5. code block styling
+5. ~~[code block styling](https://yeri-kim.github.io/jekyll/2019/04/19/code-syntax-styleing.html)~~ 완료
 6. 세부 텍스트 styling
 7. 전체적인 디자인 수정
 8. about.md 수정
