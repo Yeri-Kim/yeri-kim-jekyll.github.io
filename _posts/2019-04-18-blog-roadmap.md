@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "블로그 업데이트 계획"
-date:   2019-04-18
+date:   2019-04-18 11:00:00
 categories: jekyll
 ---
 
