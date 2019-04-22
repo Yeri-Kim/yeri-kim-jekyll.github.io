@@ -55,6 +55,7 @@ main {
  * Images
  */
 img {
+  display: block;
   max-width: 100%;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -266,4 +267,8 @@ table {
   td {
     border: 1px solid $grey-color-light;
   }
+}
+
+del {
+  color: #a5a5a5;
 }

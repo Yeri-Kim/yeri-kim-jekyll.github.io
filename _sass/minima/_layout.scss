@@ -229,6 +229,11 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
+  h2, h3, h4 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
   h2 {
     @include relative-font-size(2);
 
@@ -246,10 +251,12 @@
   }
 
   h4 {
-    @include relative-font-size(1.25);
+    font-weight: bold;
+
+    @include relative-font-size(1.15);
 
     @include media-query($on-laptop) {
-      @include relative-font-size(1.125);
+      @include relative-font-size(1.1);
     }
   }
 }
