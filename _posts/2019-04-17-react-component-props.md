@@ -36,7 +36,7 @@ function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
 }
 ```
-[여기에서](https://codepen.io/pen?&editable=true&editors=0010) 확인할 수 있습니다.
+[여기에서](https://codepen.io/yeri-kim/pen/bJZZwm) 확인할 수 있습니다.
 
 #### class로 Welcome 컴포넌트 구현하기
 class로 컴포넌트를 만드려면 `React.Component` 를 extend해서 생성합니다. 컴포넌트를 생성할 때 `render()` 메서드는 무조건 정의해야하고, `return`도 해주어야 합니다.
@@ -84,7 +84,7 @@ ReactDOM.render(
 2. App 컴포넌트를 보니 div로 감싸져있고,  `<Welcome />` 컴포넌트를 세번 사용했습니다. name이라는  attribute를 부여해주었네요.
 3. `ReactDOM.render` 함수로 React 요소를 그려줍니다. root라는 id를 찾아 `<App />` 컴포넌트를 그려주네요.
 
-[여기에서](https://codepen.io/pen?&editable=true&editors=0010) 테스트하고 수정할 수 있습니다. 코드를 보고 이해만 하지 말고, 직접 수정하고 결과를 확인해보세요.
+[여기에서](https://codepen.io/yeri-kim/pen/vMPPNZ) 테스트하고 수정할 수 있습니다. 코드를 보고 이해만 하지 말고, 직접 수정하고 결과를 확인해보세요.
 
 
 
@@ -186,7 +186,7 @@ function Comment(props) {
 }
 ```
 
-코드는 [여기에서](https://codepen.io/pen?&editable=true&editors=0010)확인할 수 있습니다. 한줄 한줄 이해하셔야 합니다. 이해하지 못하면 stack overflow에 물어봐주세요.
+코드는 [여기에서](https://codepen.io/yeri-kim/pen/YMggZr)확인할 수 있습니다. 한줄 한줄 이해하셔야 합니다. 이해하지 못하면 stack overflow에 물어봐주세요.
 
 
 #### reference
