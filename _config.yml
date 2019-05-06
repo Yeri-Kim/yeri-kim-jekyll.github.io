@@ -28,6 +28,10 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jemoji
+
+# GA
+google_analytics: UA-139726433-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

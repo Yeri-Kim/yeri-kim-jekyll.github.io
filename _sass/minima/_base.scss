@@ -55,12 +55,15 @@ main {
  * Images
  */
 img {
-  display: block;
   max-width: 100%;
-  margin-top: 10px;
-  margin-bottom: 20px;
   vertical-align: middle;
-  border: 1px solid #ddd;
+
+  &:not(.emoji) {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
 }
 
 
