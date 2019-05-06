@@ -24,7 +24,11 @@ jeykyll plugin을 통해 만들 수도 있지만, 어렵지 않으니 직접 만
 코드는 [github](https://github.com/Yeri-Kim/yeri-kim.github.io/blob/master/sitemap.xml)에서 확인해주세요.
 <img src="/img/190506-xml.png" width="400" />
 
-3.Google Search Console 에서 sitemap.xml url 추가 후 submit
+3.위의 코드에서 보듯이 site.url을 사용하고 있으니 _config.yml에 url을 추가해주세요.
+```
+url: https://yeri-kim.github.io/
+```
+4.Google Search Console 에서 sitemap.xml url 추가 후 submit
 ![](/img/190506-sitemap.png)
 
 끄읕! 참 쉽죠?
