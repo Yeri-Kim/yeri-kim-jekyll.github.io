@@ -8,7 +8,9 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-
+* {
+  box-sizing: border-box;
+}
 
 /**
  * Basic styling
@@ -232,13 +234,20 @@ pre {
     height: 16px;
     display: inline-block;
     fill: #{$grey-color};
-    padding-right: 5px;
     vertical-align: text-top;
 }
 
 .social-media-list {
+  text-align: center;
+
   li + li {
     padding-top: 5px;
+  }
+
+  li {
+    display: inline-block;
+    line-height: 1;
+    margin-right: 15px;
   }
 }
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "jwt을 Local Storage에 저장하고 request header에 보내기"
 date:   2019-05-07
-categories: jekyll
+categories: javascript
 ---
 
 이번 시간에는 access token을 local storage에 저장하고, api 호출 시 request header에 담아 보내는 법을 배우도록 하겠습니다.

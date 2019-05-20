@@ -1,12 +1,10 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+  <div class="">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="">
         <ul class="contact-list">
           {%- if site.email -%}
           <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
@@ -14,19 +12,13 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
+      <div class="">
         {%- include social.html -%}
       </div>
 
-      <div class="footer-col footer-col-3">
+      <div class="">
         <!--<p>{{- site.description | escape -}}</p>-->
 
-        <div class="wecode-logo">
-          <span>Powered by</span>
-          <a href="https://wecode.co.kr" target="_blank">
-            <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/logo/wecode_logo.png" alt="wecode" />
-          </a>
-        </div>
       </div>
     </div>
 

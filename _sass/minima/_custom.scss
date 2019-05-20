@@ -1,0 +1,79 @@
+/**
+ * Site header
+ */
+
+
+.site-menu {
+  padding: 20px 35px;
+  border-right: 1px solid #e1e4e8;
+
+  overflow-y: auto;
+
+  p.category-title {
+    line-height: 1;
+    margin: 30px 0 15px;
+  }
+
+  .site-nav {
+    ul {
+      margin-left: 10px;
+      list-style: none;
+
+      li {
+        line-height: 2;
+
+        a:hover {
+          color: #606060
+        }
+      }
+    }
+  }
+
+  @media #{$phone} {
+    background: url(/img/profile.png) center center;
+    background-size: cover;
+    height: 260px;
+
+    p.category-title {
+      display: none;
+    }
+
+    img {
+      display: none;
+    }
+  }
+
+  @media #{$desktop} {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+  }
+}
+
+.post-list {
+  h3 {
+    margin-bottom: 0;
+  }
+
+  .category-tag {
+    color: #607d8b;
+    margin-left: 6px;
+  }
+}
+
+article {
+  max-width: 800px;
+  background-color: white;
+  padding: 30px;
+
+  @media #{$desktop} {
+    margin-top: 36px;
+  }
+}
+
+h1.category-page-title {
+  margin-left: 15px;
+  margin-bottom: 25px;
+}

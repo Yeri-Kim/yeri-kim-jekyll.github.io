@@ -26,6 +26,9 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+$phone: "screen and (max-width: 768px)";
+$desktop: "(min-width: 769px)";
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
@@ -47,5 +50,6 @@ $on-laptop:        800px !default;
 @import
   "minima/base",
   "minima/layout",
-  "minima/syntax-highlighting"
+  "minima/syntax-highlighting",
+  "minima/custom"
 ;
